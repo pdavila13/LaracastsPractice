@@ -1,12 +1,18 @@
-<!DOCTYPE html>
-<html>
-<head lang="es">
-    <meta charset="UTF-8">
-    <title>About</title>
-</head>
-<body>
+@extends('app')
 
-    <h1>About me! {{ $first }} {{ $last }} </h1>
+@section('content')
+
+    <h1>About</h1>
+
+    <h3>People I Like:</h3>
+
+    <ul>
+        @foreach($people as $person)
+            <li>{{ $person }}</li>
+        @endforeach
+    </ul>
+
+
 
     <p>
         Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper nulla non
@@ -14,5 +20,4 @@
         elit. Donec ullamcorper nulla non metus auctor fringilla.
     </p>
 
-</body>
-</html>
+@stop

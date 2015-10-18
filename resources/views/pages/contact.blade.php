@@ -1,11 +1,13 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta chatset="UTF-8">
-    <title>Contact</title>
-</head>
+@extends('app')
 
-<body>
-    <h1>Contact me</h1>
-</body>
-</html>
+@section('content')
+
+    <h1>Contact me!</h1>
+
+@stop
+
+@section('footer')
+    <script>
+        alert('Contact form scripts');
+    </script>
+@stop

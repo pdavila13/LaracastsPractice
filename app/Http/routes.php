@@ -17,5 +17,5 @@ Route::get('/', function () {
 
 Route::get('about', 'PagesController@about');
 
-Route::get('contact', 'WelcomeController@contact');
+Route::get('contact', 'PagesController@contact');
 
