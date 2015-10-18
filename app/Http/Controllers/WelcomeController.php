@@ -17,6 +17,7 @@ class WelcomeController extends Controller {
     //Function return contact
     public function contact()
     {
-        return "Contact me";
+        return view('pages.contact');
+        //return "Contact me";
     }
 }
