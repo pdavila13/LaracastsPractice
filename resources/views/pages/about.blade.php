@@ -6,7 +6,7 @@
 </head>
 <body>
 
-    <h1>About me! <?= $name; ?></h1>
+    <h1>About me! {!! $name !!} </h1>
 
     <p>
         Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper nulla non
